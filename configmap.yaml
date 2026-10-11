@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: webapp-config
+  namespace: devops-week07
+data:
+  APP_ENV: "production"
+  APP_MESSAGE: "Welcome to Davine Tech Kubernetes week 07 task."
